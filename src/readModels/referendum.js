@@ -12,7 +12,8 @@ export function reducer(referendumList, eventData) {
           referendumId: event.referendumId,
           name: event.name,
           proposal: event.proposal,
-          options: event.options, 
+          options: event.options,
+          status: event.status,
         });
       }
       break;
